@@ -49,3 +49,15 @@ print(type(d)) # it tells the datatype of d
 print("now we use logical operators")
 print(a>3 and b>10, print(a,b,c), print(a==b and b==c)) # it returns true if both the conditions are true
 print(d==print(c))
+
+# This is a Truth Table for OR Operator
+print("true or false:", True or False)
+print("False or false:", False or False)
+print("true or True:", True or True)
+print("False or true:", False or True)
+
+# This is a Truth Table for and Operator
+print("true and false:", True and False)
+print("False and false:", False and False)
+print("true and True:", True and True)
+print("False and true:", False and True)
